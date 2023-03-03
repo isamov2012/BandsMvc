@@ -10,9 +10,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
 </head>
 <body>
+    <h3> Band Names </h3>
+    <ul> 
     @for (int i = 0; i < Model.Length; i++)
     {
-        @Model[i].Name;
+        <li> @Model[i].Name </li>
     }
+    </ul>
 </body>
 </html>
